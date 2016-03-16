@@ -36,8 +36,17 @@ body {
   border-color: #eeeeee;
   background-color: #1E90FF;
   color: white;
-  height: 750px;
-  overflow: auto;
+  width: 30%;
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  word-wrap: normal;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  padding: 0;
+  z-index: 10;↲
 
   h2, h3 {
     margin: 0;
