@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,100,700);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+body {
+  font-family: Roboto, sans-serif;
+  background: white;
+}
+
+#net-widget, #prop-widget {
+  padding: 0.2em;
+  h2, h3 {
+    font-weight: 200;
+    font-size: 2em;
+    padding: 0.2em;
+    margin: 0;
+  }
+}
+
+#net-widget {
+  width: 69%;
+  float: left;
+}
+
+#prop-widget {
+  width: 30%;
+  float: right;
+}
+
+#widget-network, #widget-table {
+  border-style: solid;
+  border-color: #444444;
+  border-width: 1px;
+}
+
+#widget-table {
+  border-color: #eeeeee;
+  background-color: #1E90FF;
+  color: white;
+  height: 750px;
+  overflow: auto;
+
+  h2, h3 {
+    margin: 0;
+    color: white;
+    padding: 0.2em;
+    font-weight: 200;
+  }
+
+  .key-col {
+    width: 12em !important;
+  }
+
+  table {
+    padding: 0.5em;
+
+    tbody tr {
+      td {
+        padding: 0.5em;
+      }
+    }
+
+  }
+
+  font-weight: 300;
+  font-family: Roboto, sans-serif;
+}
